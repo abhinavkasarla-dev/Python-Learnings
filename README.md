@@ -4,14 +4,17 @@ To learn python and become python geek
 
 ## How the course works
 
+The notes written during the sessions are in [`lessons/`](lessons/).
+
 The course is split into modules (`01_python_fundamentals/`, ...). Each module holds numbered
 exercises, one folder per exercise:
 
 ```
 01_python_fundamentals/
-└── 01_string_manipulation/
-    ├── string_manipulation.py       # the instructions are at the top: you write the code here
-    └── test_string_manipulation.py  # the tests: never edit this file
+├── 01_string_methods/
+│   ├── string_methods.py        # the instructions are at the top: you write the code here
+│   └── test_string_methods.py   # the tests: never edit this file
+└── 02_string_manipulation/
 ```
 
 An exercise is done when all its tests pass. We review it together afterwards.
@@ -23,7 +26,7 @@ Everything goes through `uv`. Never run `python` or `pip` directly.
 | I want to... | Command |
 |---|---|
 | Install everything after a `git pull` | `uv sync` |
-| Run the tests of one exercise | `uv run pytest 01_python_fundamentals/01_string_manipulation` |
+| Run the tests of one exercise | `uv run pytest 01_python_fundamentals/01_string_methods` |
 | Stop at the first failing test | `uv run pytest -x <folder>` |
 | See every test name and its result | `uv run pytest -v <folder>` |
 | Run all the tests | `uv run pytest` |

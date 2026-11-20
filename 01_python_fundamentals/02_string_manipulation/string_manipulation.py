@@ -7,7 +7,7 @@ Instructions:
     Replace `raise NotImplementedError` with your code.
 
 Run the tests:
-    uv run pytest 01_python_fundamentals/01_string_manipulation
+    uv run pytest 01_python_fundamentals/02_string_manipulation
 
 Rules:
     - No imports: everything can be done with built-in string methods.
