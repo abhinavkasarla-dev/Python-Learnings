@@ -4,6 +4,8 @@ To learn python and become python geek
 
 ## How the course works
 
+The notes written during the sessions are in [`lessons/`](lessons/).
+
 The course is split into modules (`01_python_fundamentals/`, ...). Each module holds numbered
 exercises, one folder per exercise:
 
